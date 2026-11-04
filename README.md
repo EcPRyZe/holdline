@@ -13,4 +13,6 @@ npm run dev
 
 Open the app at `http://localhost:8080`.
 
+The phone build is a static site: [ecpryze.github.io/holdline](https://ecpryze.github.io/holdline/). Add it to your home screen from Safari if you want it full screen.
+
 Rifle, load, and optic choices stay in the browser. There is no account.

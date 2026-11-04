@@ -6,6 +6,7 @@ screenshots/
 artifacts/
 .node_modules.lock
 dist/
+dist-pages/
 .env
 .env.*
 *.log

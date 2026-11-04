@@ -39,13 +39,13 @@ export function Holdline() {
           {units === "yd" ? "Yards" : "Meters"}
         </button>
       </header>
-      <main className="px-4 pt-4 pb-28">
+      <main className="px-4 pt-4 pb-[calc(7rem+env(safe-area-inset-bottom))]">
         {tab === "solve" ? <SolveView /> : null}
         {tab === "dope" ? <DopeView /> : null}
         {tab === "zero" ? <ZeroView /> : null}
         {tab === "library" ? <LibraryView /> : null}
       </main>
-      <nav className="dock no-print fixed inset-x-0 bottom-0 z-10 border-t border-line bg-bg/95 backdrop-blur">
+      <nav className="dock no-print fixed inset-x-0 bottom-0 z-10 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
         <ul className="mx-auto grid max-w-3xl grid-cols-4">
           {TABS.map((item) => {
             const Icon = item.icon;
