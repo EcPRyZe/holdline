@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 @import "tailwindcss";
+/* The phone build's Vite root is site/, so Tailwind would otherwise miss these classes. */
+@source "./";
 
 @theme {
   --color-bg: #121410;
